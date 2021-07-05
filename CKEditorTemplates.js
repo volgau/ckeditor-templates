@@ -32,8 +32,8 @@ CKEDITOR.addTemplates ('default', {
                 '</blockquote>'
         },
         {
-            title: 'Bootstrap Blockquote with a footer',
-            description: 'Bootstrap Blockquote with a footer.',
+            title: 'Bootstrap blockquote with a footer',
+            description: 'Bootstrap blockquote with a footer.',
             html:
                 '<blockquote class="blockquote">' +
                     '<p class="mb-0">Lorem ipsum dolor sit amet.</p>' +
@@ -46,7 +46,7 @@ CKEDITOR.addTemplates ('default', {
                 '</blockquote>'
         },
         {
-            title: 'Bootstrap Table (responsive)',
+            title: 'Bootstrap table (responsive)',
             description: 'Bootstrap table inside responsive div.',
             html:
                 '<div class="table-responsive">' +
