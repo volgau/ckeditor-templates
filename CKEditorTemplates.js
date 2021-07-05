@@ -6,6 +6,14 @@ CKEDITOR.addTemplates ('default', {
 
 	templates: [
         {
+            title: "YouTube video",
+            description: 'YouTube video inside Bootstrap embed-responsive container.',
+            html:
+                '<div class="embed-responsive embed-responsive-16by9">' +
+                    '<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/ABCDEFGH"></iframe>' +
+                '</div>'
+        },
+        {
             title: 'Image thumbnail with lightbox',
             description: 'Image thumbnail with the full image opens in the blueimp Gallery lightbox.',
             html:
