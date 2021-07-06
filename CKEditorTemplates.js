@@ -18,8 +18,8 @@ CKEDITOR.addTemplates ('default', {
             description: 'Image thumbnail with the full image opens in the blueimp Gallery lightbox.',
             html:
                 '<p>' +
-                    '<a data-gallery="" href="/dnnimagehandler.ashx?mode=file&file=/Portals/0/images/logo2.png&w=200" title="DNN Platform">' +
-                        '<img class="img-thumbnail" alt="DNN" src="/Portals/0/images/logo2.png" />' +
+                    '<a data-gallery="" href="/Portals/0/images/logo2.png" title="DNN Platform">' +
+                        '<img class="img-thumbnail" alt="DNN" src="/dnnimagehandler.ashx?mode=file&file=/Portals/0/images/logo2.png&w=200" />' +
                     '</a>' +
                 '</p>'
         },
